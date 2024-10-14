@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  background-color:#fff;
+  min-height: 100vh;
+  display: flex;
+
+
+
+}
+nav{
+  position: sticky;
+  left: 0;
+  background-color: #F8F8FF;
+  padding: 1.8rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.5s ease-in-out;
+  border-radius: 30px;
+  width: 260px;
+  height: 879px;
+
+}
+
+nav::before{
+  content: "";
+  position: absolute;
+  width: 2rem;
+  height: 100%;
+  top: 0;
+  left: 100%;
+}
+
+main{
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+main h2{
+  font-size: 15px;
+  color: #1A194D;
+}
+
+main h1{
+  margin-bottom: 1rem;
+  font-size: 32px;
+  color: #1A194D;
+}
+
+.sidebar-top{
+  position: relative;
+  align-items:center;
+  display: flex;
+
+}
+
+.sidebar-top logo{
+  display:flex;
+  width: 3.1rem;
+  object-fit: cover;
+  margin: 0 0.8rem;
+  text-align: center;
+
+}
+
+.sidebar-top h4{
+ 
+  padding-left: 0.5rem;
+  color: #1A194D;
+  align-items:center ;
+  align-items: center;
+  display: flex;
+  text-align: right;
+  margin-bottom: 30px;
+
+  
+  
+}
+
+.sidebar-top span{
+font-size: 14px;
+  display: block;
+  flex-direction:column;
+  margin-top: 14px;
+  color: #62618F;
+  text-align: right;
+  position: absolute;
+  width: 130px;
+}
+.sidebar-links{
+  margin-bottom: 30px;
+}
+
+.sidebar-links ul{
+  position: relative;
+}
+
+.sidebar-links li{
+  position:relative;
+  padding: 2.5px 0;
+
+}
+
+.sidebar-links a{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  height: 53px;
+}
+
+icon{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1frs;
+  grid-template-rows: 1fr;
+  display: flex;
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+.icon img{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+
+}
+
+.icon span{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #1A194D;
+}
